@@ -17,7 +17,7 @@ gh repo clone ImInTheICU/Private-DSTAT
 
 ## Preview
 
-![Screenshot 2025-01-24 181909](https://github.com/user-attachments/assets/dbaca7be-f746-45bc-bdae-f564c6b1ea36)
+![Screenshot 2025-01-24 181909](https://github.com/user-attachments/assets/96521299-86dd-4f1f-a769-187d09973134)
 
 ## Running the DSTAT...
 

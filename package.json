@@ -1,0 +1,18 @@
+{
+  "name": "private-dstat",
+  "version": "0.0.1",
+  "description": "Private DSTAT is a simpler version of most DSTATs developed using JS, CSS, and, HTML.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "ImInTheICU",
+  "dependencies": {
+    "ws": "^7.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ImInTheICU/Private-DSTAT.git"
+  }
+}

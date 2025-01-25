@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Private DSTAT - Hit</title>
+        <style>
+            html,
+            body {
+                height: 100%;
+                margin: 0;
+                background-color: #181818;
+                color: #ffffff;
+            }
+
+            body {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .message-box {
+                text-align: center;
+                background-color: #282828;
+                border-radius: 12px;
+                padding: 20px 30px;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+                font-family: Arial, sans-serif;
+                width: fit-content;
+                max-width: 90%;
+            }
+
+            a {
+                color: #4e90ff;
+                text-decoration: none;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="message-box">
+            <p>You've hit the server. You can see it here:</p>
+            <p id="server-link"></p>
+        </div>
+
+        <script>
+            window.onload = () => {
+                const serverLink = document.getElementById("server-link");
+                const host = location.host;
+                serverLink.innerHTML = `<a href="http://${host}" target="_blank">${host}</a>`;
+            };
+        </script>
+    </body>
+</html>

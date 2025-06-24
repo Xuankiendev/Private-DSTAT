@@ -5,7 +5,7 @@ const cluster = require("cluster");
 const os = require("os");
 
 const cpus = os.cpus().length;
-const port = 28022;
+const port = 2011;
 
 if (cluster.isMaster) {
     console.log(`--> Private DSTAT made with <3 by Pingu.`);
